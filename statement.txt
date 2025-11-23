@@ -1,0 +1,44 @@
+Hand Cricket Game - Documentation
+Problem Statement
+
+The objective of this project is to simulate a simple hand-cricket match between a user and the computer using Python. The game should allow the player to choose whether to bat or bowl first, play two innings, track runs, wickets, and balls, and finally determine the winner. The system must mimic the basic rules of hand cricket where matching numbers cause dismissals while unmatched numbers add runs.
+
+Scope of the Project
+
+This project focuses on developing a console-based cricket game with simple user interaction.
+
+The game includes two innings: one where the user bats/bowls, and another where the computer takes the opposite role.
+
+Random number generation simulates the computer’s play.
+
+The scope includes wicket tracking, ball counting, basic rule enforcement, and winner declaration.
+
+The project does not include graphical UI, multiplayer support, advanced cricket rules, or error-proof input handling beyond basic checks.
+
+Target Users
+
+Students learning Python and wanting to practice basic programming concepts.
+
+Beginners who want to understand loops, conditionals, and random number generation.
+
+Users who enjoy small terminal-based games.
+
+Teachers or trainers who want to demonstrate simple game logic design.
+
+High-Level Features
+
+Toss Choice: User selects batting or bowling at the start.
+
+Two-Innings Match: Both user and computer play one inning each.
+
+Randomized Gameplay: Computer’s runs/bowls generated using Python's random module.
+
+Wicket System: A player loses a wicket when the numbers match.
+
+Run Accumulation: Runs added for non-matching numbers.
+
+Ball Tracking: Each inning has a limited number of balls.
+
+Simple Winner Logic: Compares final scores and displays a message declaring the winner.
+
+Basic Error Handling: Prevents the player from entering numbers greater than 6.
